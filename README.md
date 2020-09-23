@@ -1,7 +1,7 @@
 # Symfony Boilerplate
-Start a Symfony project easily
+Start a Symfony project easily (for beginers)
 
-## Inside the boilerplate
+This is what you would need to init a new symfony project with the necessary bundles.
 
 ### Symfony
 
@@ -21,16 +21,19 @@ In webpack.config.js :
 
 `.enableSassLoader() .enableReactPreset()`
 
-(And chance "css" to "scss")
-
 `yarn add @babel/preset-react --dev`
+
 `yarn add react react-dom prop-types`
+
+`yarn add sass-loader@^8.0.0 --dev`
+
+And change "css" files extension and directory to "scss"
 
 ### Liip Imagine
 
 `composer require liip/imagine-bundle`
 
-Add / remove filters : config/packages/liip_imagine.yaml
+And add / remove filters in config/packages/liip_imagine.yaml
 
 ### Test
 
@@ -40,10 +43,16 @@ Add / remove filters : config/packages/liip_imagine.yaml
 
 `composer require --dev phpstan/phpstan-symfony`
 
-(And add phpstan.neon)
+And add phpstan.neon (see phpstan doc or file in this repo)
 
 ### CSS Reset file
 https://github.com/jgthms/minireset.css
 
-## Help : 
+## What's next ?
+
+Now you can code !
+
+Copy/paste the Makefile to ease your workflow
+
+### Help : 
 `make help`
