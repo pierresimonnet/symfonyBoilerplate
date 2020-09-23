@@ -13,7 +13,9 @@ Start a Symfony project easily
 
 ### Webpack
 
-`composer require symfony/webpack-encore-bundle `
+`composer require symfony/webpack-encore-bundle`
+
+`yarn install`
 
 In webpack.config.js :
 
@@ -29,6 +31,10 @@ In webpack.config.js :
 `composer require liip/imagine-bundle`
 
 Add / remove filters : config/packages/liip_imagine.yaml
+
+### Test
+
+`composer require --dev symfony/phpunit-bridge`
 
 ### PHPStan
 
