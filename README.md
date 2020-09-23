@@ -1,4 +1,13 @@
-# Nakayoi
+# Symfony Boilerplate
+Start a Symfony project easily
+
+## In this boilerplate
+- Symfony 5
+- API Plateform
+- Webpack Encore
+- Liip Imagine
+- PHPStan
+- CSS Reset file
 
 ## Install : 
 `composer install`
