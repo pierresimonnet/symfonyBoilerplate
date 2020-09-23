@@ -29,6 +29,10 @@ In webpack.config.js :
 
 And change "css" files extension and directory to "scss"
 
+### VichUploader
+
+`composer require vich/uploader-bundle`
+
 ### Liip Imagine
 
 `composer require liip/imagine-bundle`
