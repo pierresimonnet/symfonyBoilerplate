@@ -43,11 +43,23 @@ And add / remove filters in config/packages/liip_imagine.yaml
 
 `composer require --dev symfony/phpunit-bridge`
 
+`composer require --dev dama/doctrine-test-bundle`
+And in phpunit.xml.dist add 
+`<extensions>
+  <extension class="DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension" />
+ </extensions>`
+
 ### PHPStan
 
 `composer require --dev phpstan/phpstan-symfony`
 
 And add phpstan.neon (see phpstan doc or file in this repo)
+
+### Prod (Heroku)
+
+- `composer require symfony/apache-pack`
+- Create Procfile
+https://devcenter.heroku.com/articles/deploying-symfony4
 
 ### CSS Reset file
 https://github.com/jgthms/minireset.css
